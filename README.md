@@ -1,4 +1,4 @@
-# Erste Hilfe App 
+<h1 align=center>Erste Hilfe App - Projektseite</h1>
 
 <div align=center>
     <img src='images/icon.png', height="200", border="5"></img>
