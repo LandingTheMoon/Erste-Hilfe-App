@@ -68,9 +68,15 @@ Louis Lemberg (@MindOfUs)</h3>
 
 ## Einführung <a name="einfuehrung"></a>
 
+Im ersten Abschnitt unserer Projektseite werden wir zuerst einmal unsere Gruppe, sowie unsere Projektidee erklären.
+
 ### 1. Die Gruppe <a name="gruppe"></a>
 
+Unsere Gruppe besteht aus Jan Drewes und Louis Lemberg, wir gehen beide in das Physikprofil der 11. Klasse. Für uns war von Anfang an klar, dass wir wieder zusammenarbeiten wollen, da die Zusammenarbeit im ersten Halbjahr während des ersten Informatik.-Projekts schon sehr gut funktioniert hat. Dadurch dass wir letztes Halbjahr schon zusammengearbeitet, sind wir vom Kenntnisstand auch ungefähr auf einem Level.
+
 ### 2. Die Idee <a name="idee"></a>
+
+Für uns beide war von Anfang an klar, dass wir nicht wie im letzten Jahr mit Python programmieren wollen, sondern uns eine neue Herausforderung suchen wollen. Dabei sind wir relativ schnell auf die Idee gestoßen, eine eigene App zu programmieren. Auch das Thema der App war uns durch Jans Leidenschaft durch die Arbeit bei der DLRG und beim Schulsanitätsdienst für das Rettungswesen klar, somit entschieden wir uns dazu eine Erste-Hilfe-App zu programmieren. Die nur die wichtigsten Funktionen, wie eine Notrufseite mit den Nummern für den Rettungsdienst aus fast allen erupäischen Ländern, ein Metronom, dass bei der Herz-Lungen-Wiederbelebung unterstützt und eine Seite, die dir hilft den Puls zu berechnen, umfasst.
 
 ## Die verwendeten Programme <a name="programme"></a>
 
