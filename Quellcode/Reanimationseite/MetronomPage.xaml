@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Erste_Hilfe_App.MetronomPage"
+            BackgroundColor="#052A2F">
+
+    <NavigationPage.TitleView>
+        <Label Text="Reanimation"
+               FontSize="Large"
+               FontAttributes="Bold"
+               TextColor="#FFFFFF"
+               HorizontalTextAlignment="Start"
+               VerticalTextAlignment="Center"/>
+    </NavigationPage.TitleView>
+
+    <Grid Padding="20,20,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="1"
+                Grid.Column="0"
+                WidthRequest="300"
+                HeightRequest="450"
+                Text="Start"
+                FontSize="75"
+                FontAttributes="Bold"
+                TextColor="#FFFFFF"
+                Margin="10"
+                BackgroundColor="Green"
+                x:Name="BtnMetro"
+                Clicked="BtnMetro_Clicked"/>
+        <Button Grid.Row="0"
+                Grid.Column="0"
+                WidthRequest="300"
+                HeightRequest="90"
+                FontSize="19"
+                TextTransform="None"
+                BackgroundColor="#052A2F"
+                x:Name="AlertBtn"
+                Clicked="AlertBtn_Clicked"
+                TextColor="#FFFFFF"
+                Text="HLW nach angegebenen Rhythmus"/>
+    </Grid>
+
+</ContentPage>

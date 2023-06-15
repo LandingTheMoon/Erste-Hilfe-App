@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Erste_Hilfe_App.NotrufPage"
+             BackgroundColor="#052A2F">
+
+    <NavigationPage.TitleView>
+        <Label Text="Notruf"
+               FontSize="Large"
+               FontAttributes="Bold"
+               TextColor="#FFFFFF"
+               HorizontalTextAlignment="Start"
+               VerticalTextAlignment="Center"/>
+    </NavigationPage.TitleView>
+    <StackLayout>
+        <SearchBar Placeholder="Suche Land"
+                   x:Name="LandSearch"
+                   TextChanged="LandSearch_TextChanged"
+                   TextColor="White"
+                   PlaceholderColor="White"
+                   CancelButtonColor="White"/>
+        <ListView x:Name="NotrufList"
+                  HasUnevenRows="True"
+                  ItemTapped="NotrufList_ItemTapped"
+                  VerticalOptions="FillAndExpand"
+                  HorizontalOptions="FillAndExpand"
+                  IsVisible="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid BackgroundColor="#052A2F"
+                              RowSpacing="0"
+                              ColumnSpacing="10"
+                              Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Row="0"
+                                       Grid.Column="0"
+                                       x:Name="FlagImage"
+                                       Source="{Binding Flag}"
+                                       WidthRequest="60"
+                                       HeightRequest="38"
+                                       BackgroundColor="#052A2F"/>
+                                <Label Grid.Row="0"
+                                   Grid.Column="1"
+                                   Text="{Binding Land}"
+                                   FontSize="Large"
+                                   WidthRequest="270"
+                                   HeightRequest="38"
+                                   Padding="0"
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"
+                                   BackgroundColor="#5b5a5f"/>
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

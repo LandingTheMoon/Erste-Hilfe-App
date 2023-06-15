@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Erste_Hilfe_App.PulsRechner"
+    BackgroundColor="#052A2F">
+
+    <NavigationPage.TitleView>
+        <Label Text="Puls"
+               FontSize="Large"
+               FontAttributes="Bold"
+               TextColor="#FFFFFF"
+               HorizontalTextAlignment="Start"
+               VerticalTextAlignment="Center"/>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Miss den Puls für 15 Sekunden!"
+                   FontSize="18"
+                   Grid.Row="0"
+                   TextColor="#FFFFFF"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Grid.ColumnSpan="2"/>
+            <Label x:Name="Timer"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   TextColor="#FFFFFF"
+                   Text="00:00:15"
+                   Grid.Row="1"
+                   Grid.ColumnSpan="2"
+                   HeightRequest="70"/>
+            <Button Text="Start"
+                    x:Name="start"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Clicked="start_Clicked"/>
+            <Button Text="Stop"
+                    x:Name="stop"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Clicked="stop_Clicked"/>
+            <Entry Placeholder="Puls für 15sec"
+                   Text=""
+                   Grid.Row="3"
+                   x:Name="entry"
+                   Completed="entry_Completed"
+                   TextColor="#FFFFFF"
+                   Keyboard="Numeric"
+                   Grid.ColumnSpan="2"/>
+            <Label Text=""
+                   HorizontalTextAlignment="Center"
+                   TextColor="#FFFFFF"
+                   Grid.Row="4"
+                   x:Name="lbl"
+                   Grid.ColumnSpan="2"
+                   FontSize="20"
+                   Padding="0,20,0,0"
+                   HeightRequest="90"/>
+            <Button Text="Zurücksetzen"
+                    Grid.Row="5"
+                    Grid.ColumnSpan="2"
+                    Clicked="Button_Clicked"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
