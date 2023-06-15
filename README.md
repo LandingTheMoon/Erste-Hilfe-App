@@ -1,4 +1,8 @@
-# Informatik-Projekt-2
+# Erste Hilfe App 
+
+<div align=center>
+    <img src='images/icon.png', height="200", border="5"></img>
+</div>
 
 ## Verwendete Programme
 
