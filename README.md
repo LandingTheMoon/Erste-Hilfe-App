@@ -25,13 +25,13 @@ Louis Lemberg (@MindOfUs)</h3>
         <a href="#programme">Die verwendeten Programme</a>
         <ol>
             <li>
-                <a href="#visualstudio">VisualStudio 2022 (Programmierumgebung)</a>
-            </li>
-            <li>
                 <a href="#xamarin">Xamarin Forms (Framework)</a>
             </li>
             <li>
                 <a href="#c#">C# (Programmiersprache)</a>
+            </li>
+            <li>
+                <a href="#visualstudio">VisualStudio 2022 (Programmierumgebung)</a>
             </li>
         </ol>
     </li>
@@ -82,11 +82,11 @@ Für uns beide war von Anfang an klar, dass wir nicht wie im letzten Jahr mit Py
 
 In diesem Abschnitt erklären wir die verwendeten Programme, sowie die verwendten Programmiersprachen und warum wir diese verwendet haben.
 
-### 1. Visual Studio 2022 (Programmierumgebung) <a name="visualstudio"></a>
+### 1. Xamarin Forms (Framework) <a name="xamarin"></a>
 
-### 2. Xamarin Forms (Framework) <a name="xamarin"></a>
+### 2. C# (Programmiersprache) <a name="c#"></a>
 
-### 3. C# (Programmiersprache) <a name="c#"></a>
+### 3. Visual Studio 2022 (Programmierumgebung) <a name="visualstudio"></a>
 
 ## Erste Hilfe App - Coderklärung <a name="firstaid"></a>
 
@@ -114,6 +114,6 @@ PhoneDialer.Open("Die Telefonnummer die geöffnet werden soll");
 
 Alle Links wurden zuletzt erfolgreich am II.06.2023 um II.II Uhr geöffnet.
 
-## Eigenstädnigkeitserklärung <a name="eigen"></a>
+## Eigenständigkeitserklärung <a name="eigen"></a>
 
 Wir bestätigen hiermit, dass unser Ergebnis, ein von uns eigens erschaffenes Produkt ist, und wir uns bei der Umsetzung einzig durch die angegebenen Quellen geholfen haben.
