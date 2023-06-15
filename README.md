@@ -1,7 +1,7 @@
 <h1 align=center>Erste Hilfe App - Projektseite</h1>
 
 <div align=center>
-    <img src='images/icon.png', height="300", border="5"></img>
+    <img src='images/icon.png', height="250", border="5"></img>
 </div>
 
 <h3 align=center>von Jan Drewes (@LandingTheMoon) & 
@@ -84,9 +84,15 @@ In diesem Abschnitt erklären wir die verwendeten Programme, sowie die verwendte
 
 ### 1. Xamarin Forms (Framework) <a name="xamarin"></a>
 
+Als Framwork für unsere App haben wir uns für Xamarin Forms entschieden, das uns dies die Möglichkeit bot eine Cross-Plattform App zu programmieren. Xamarin Forms hat seine eigene Programmiersprache zum Designen der Bestandteile der App.
+
 ### 2. C# (Programmiersprache) <a name="c#"></a>
 
+Für den Code der Funktionen in der App verwendet Xamarin Forms die Programmiersprache C#. Dies ist eine objektorientierte plattformunabhängige Programmiersprache, die universiell einsetzbar ist. Wir beide mussten uns diese Programmiersprache erstmal aneignen aber nach anfänglichen kleineren Schwierigkeiten beherrschten wir auch sicher die Grundlagen von C#.
+
 ### 3. Visual Studio 2022 (Programmierumgebung) <a name="visualstudio"></a>
+
+Als Programmierumgebung haben wir uns mehr oder weniger freiwillig für Visual Studio 2022 entschieden. Wir waren an Visual Studio gebunden, da diese Programmierumgebung für Xamarin Forms empfohlen wird und auch sehr einfach zu bedienen ist. Aber auch ansonsten ist Visual Studio 2022 eine sehr übersichtliche IDE, die sich abseits von Visual Studio für zahlreiche umfangreiche und plattformübergreifende Anwendungen empfiehlt.
 
 ## Erste Hilfe App - Coderklärung <a name="firstaid"></a>
 
