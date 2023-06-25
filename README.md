@@ -114,20 +114,20 @@ Zu erst einmal haben wir aber die Leiste am oberen Bildschirmrand designt. Diese
 
 <div align=center>
     <img src='images/code(1).png', height="300", border="5"></img>
-</div>
+</div><br>
 
 Wir erzeugen zunächst einmal ein Label innerhalb dieser Leiste. Dann geben wir diesem Label ein Inhalt, einen Text, anschließend legen wir für diesen die Größe, die Eigenschaft (also in diesem Fall, dass die Schrift "fett" sein soll) und die Farbe. Danach sagen wir noch wo dieser Text stehen soll, also horizontal am Start (ganz links) des Labels und vertikal in der Mitte vom Label.
 
 Für die 3 Buttons erzeugen wir nun erst einmal eine Tabelle, in welcher die Buttons dann angeordnet werden.
 
 <div align=center>
-    <img src='images/code(2).png', border="5"></img>
+    <img src='images/code(2).png', height="300", border="5"></img>
 </div>
 
 Zu aller erst legen wir dafür die Hintergrundfarbe der Tabelle und die Größe der Reihen fest. Dann bestimmen wir viele Reihen und Spalten unsere Tabelle haben soll. In unserem Fall sind es 3 Reihen und 1 Spalte.
 
 <div align=center>
-    <img src='images/code(3).png', border="5"></img>
+    <img src='images/code(3).png', height="300", border="5"></img>
 </div>
 
 Der Code für die 3 Buttons sieht jeweils so aus (beispielhaft am Code für den ersten Button). Als erstes sagen wir jeweils, wo in der Tabelle der Button platziert werden soll. Also in der wie vielten Reihe bzw. Spalte, wobei die Zählung jeweils immer bei "0" beginnt. Dann geben wir auch diesem Button wieder einen Text und eine dazugehörige Größe. Außerdem bekommt unser Button auch noch ein Padding von 50px. Daraufhin geben wir dem Button noch einen Namen mit welchem wir dann in anderen Dateien wieder auf diesen Button zugreifen können. Die darauf folgende Zeile erzeugt eine Funktion in der '.xaml.cs'-Datei, welche beim Klicken des Buttons aufgerufen wird. Zu guter letzt geben wir dem Button noch eine Höhe.
@@ -138,13 +138,13 @@ Der Code für die 3 Buttons sieht jeweils so aus (beispielhaft am Code für den 
 Zuerst werden wie bei allen Dateien auch hier erstmal alle Librarys importiert, welche wir für die jeweilige Datei benötigen. In diesem Fall sind das:
 
 <div align=center>
-    <img src='images/code(4).png', border="5"></img>
+    <img src='images/code(4).png', height="300", border="5"></img>
 </div>
 
 Darauf folgt der eigentliche Code:
 
 <div align=center>
-    <img src='images/code(5).png', border="5"></img>
+    <img src='images/code(5).png', height="300", border="5"></img>
 </div>
 
 Die Zeile 'InitializeComponent();' sorgt dafür, dass alles was wir vorher in der '.xaml'-Datei geschrieben haben, nun auch erzeugt wird. 
@@ -156,7 +156,7 @@ Die drei Funktionen danach sind die bereits schon angesprochen, welche nach dem 
 Um dieses Weiterleiten überhaupt möglich zu machen, müssen wir unsere Startseite als 'NavigationPage' festlegen. Dafür mussten wir in die 'App.xaml.cs'-Datei gehen, welche einfach nur dafür sorgt, dass die App überhaupt gestartet wird, und folgende Zeile Code einfügen:
 
 <div align=center>
-    <img src='images/code(6).png', border="5"></img>
+    <img src='images/code(6).png', height="300", border="5"></img>
 </div>
 
 Nebenbei haben wir dann auch noch die Farbe und Text von der oben ansässigen Leiste festgelegt, über welche wir bereits schon geredet haben.
@@ -175,7 +175,7 @@ Auch auf dieser Seite designen wir zunächst einmal wieder die Leiste am oberen 
 Danach fügen wir unserer Seite direkt unter der Leiste eine Searchbar ein, mit welcher man dann auf alle Elemente innerhalb der Liste zugreifen kann.
 
 <div align=center>
-    <img src='images/code(7).png', border="5"></img>
+    <img src='images/code(7).png', height="300", border="5"></img>
 </div>
 
 Erstmal geben wir der Searchbar einen Placeholder-Text, welcher angezeigt wird, wenn sich kein Text im Textfeld befindet. Dann legen wir wie bei den Buttons einen Namen fest, um später wieder auf die Liste zugreifen zu können. Um später die Suchfunktion zu ermöglichen, erzeugen wir eine Funktion, wenn sich der Text durch die Eingabe des Users geändert hat. Dann geben wir den Texten sowie dem Cancel-Button, welcher automatisch bei einer Searchbar vorhanden ist, die Farbe weiß.
@@ -185,7 +185,7 @@ Im nächsten Schritt erzeugen wir die Liste in welcher später die ganzen Lände
 <details>
 <summary>Kompletter Code für die Liste</summary>
 <div align=center>
-    <img src='images/code(8).png', border="5"></img>
+    <img src='images/code(8).png', height="300", border="5"></img>
 </div>
 </details>
 
@@ -198,7 +198,7 @@ Wichtig bei dem Code ist, dass wenn ein Item berührt worden ist (das ganze funk
 Auch bei dieser Seite werden natürlich zuerst einmal die ganzen Librarys importiert und das Grundgerüst für den Code geschaffen.
 
 <div align=center>
-    <img src='images/code(9).png', border="5"></img>
+    <img src='images/code(9).png', height="300", border="5"></img>
 </div>
 
 Dies ist der erste Teile vom Code, welcher automatisch beim Öffnen der Seite abgerufen wird. Um dies zu verstehen müssen wir jedoch erstmal wieder einen kleinen Exkurs machen.
@@ -209,7 +209,7 @@ Dies ist der erste Teile vom Code, welcher automatisch beim Öffnen der Seite ab
 Denn für das Erzeugen der Liste haben wir auf Grund der hohen Anzahl an Items eine Class erstellt, die uns das Leben vereinfacht beim Einfügen. Die Class sieht wie folgt aus:
 
 <div align=center>
-    <img src='images/code(10).png', border="5"></img>
+    <img src='images/code(10).png', height="300", border="5"></img>
 </div>
 
 Sie sorgt dafür, dass wir nur zwei Dinge angeben müssen, nämlich zum einen wie unser Land heißt und zum anderen wo das Programm die Flagge des Landes findet. Mit diesen Informationen wird dann das Item innerhalb der Liste erstellt.
@@ -221,7 +221,7 @@ Damit lässt sich der Code nun leichter verstehen. Zunächst einmal erstellen wi
 Nun folgt die Funktion, welche aufgerufen wird, wenn ein Item ausgewählt worden ist.
 
 <div align=center>
-    <img src='images/code(11).png', border="5"></img>
+    <img src='images/code(11).png', height="300", border="5"></img>
 </div>
 
 Erst einmal wird das aufgerufene Item als Class_Template (dies wird gemacht, damit wir das Label und das Image getrennt voneinander angucken können) innerhalb einer Variable gespeichert. Dann folgt der eigentliche Code. Es wird anhand des Labels mit dem Ländernamen geguckt, welches Land aufgerufen wurde und dann wird mit Hilfe der internen Funktion von Xamarin Essentials 'PhoneDialer.Open("112");' direkt der Notruf gewählt. 
@@ -231,7 +231,7 @@ Hierbei sei erwähnt, dass der Anruf nicht direkt startet sondern sich erstmal n
 Zu guter letzt folgt nun noch die Funktion der Searchbar, um die Suchfunktion zu ermöglichen.
 
 <div align=center>
-    <img src='images/code(12).png', border="5"></img>
+    <img src='images/code(12).png', height="300", border="5"></img>
 </div>
 
 Dafür konvertieren wir den Input vom User erstmal zu einem String und zu nur Kleinbuchstaben. Dies machen wir damit wir später einfach und einheitlich die Suche gewährleisten können. Wenn der Input nun leer ist, dann sollen weiterhin alle Items der Liste angezeigt werden. Falls dies aber nicht der Fall ist, sollen nur die Items bzw. auch nur das einzige Item angezeigt werden, die zu dem Input passen. Die etwas kompliziert aussehende Zeile Code sorgt auch dafür, dass jeweils der erste Buchstabe aus dem Input groß geschrieben wird, somit können wir den Input überhaupt erst mit unseren Items abgleichen.
@@ -247,7 +247,7 @@ Wählt man jedoch auf der Startseite den Reanimationsbutton landet man auf diese
 Auch auf dieser Seite designen wir zunächst wieder die Leiste am oberen Bildschirmrand. Ansonsten ist die Seite sehr simpel gehalten. Die Seite enthält nur zwei Elemente zum einen einen Info-Text, inform eines Buttons, um beim Klicken eine Erklärung zu ermöglichen, und zum anderen einen großen Button, welcher nach dem Klicken auch wieder eine Funktion erzeugt bzw. aufruft.
 
 <div align=center>
-    <img src='images/code(13).png', border="5"></img>
+    <img src='images/code(13).png', height="300", border="5"></img>
 </div>
 
 </details>
@@ -265,7 +265,7 @@ private int i = 0;
 Beim Klicken das Buttons mit dem Info-Text wird ein PopUp-Fenster erzeugt, welches die Abkürzung HLW erklärt.
 
 <div align=center>
-    <img src='images/code(14).png', border="5"></img>
+    <img src='images/code(14).png', height="300", border="5"></img>
 </div>
 
 Es folgt nun die Erklärung für den Code, wenn der große Button auf dieser Seite geklickt wird.
@@ -274,7 +274,7 @@ Es folgt nun die Erklärung für den Code, wenn der große Button auf dieser Sei
 <summary>Kompletter Code für die Funktion beim Klicken</summary>
 
 <div align=center>
-    <img src='images/code(15).png', border="5"></img>
+    <img src='images/code(15).png', height="300", border="5"></img>
 </div>
 
 </details>
@@ -282,7 +282,7 @@ Es folgt nun die Erklärung für den Code, wenn der große Button auf dieser Sei
 Zunächst einmal wird der Intervall festgelegt in welchem Abstand nachher unser Metronom den Ton abspielen soll. Denn dafür brauchen wir einen Wert in Millisekunden. Dann rechnen wir anschließend auf die Variable i einen Wert dazu, um dann zugucken ob nach der Modulo-Operation mit 2 der Wert von i gleich 0 ist. Wenn dies so ist soll, der Button grün bleiben und weiterhin "Start" sagen. Falls dies jedoch nicht der Fall ist, soll der Button rot werden und sich der Text zu "Stop" ändern. Außerdem soll das genannte Metronom starten.
 
 <div align=center>
-    <img src='images/code(16).png', border="5"></img>
+    <img src='images/code(16).png', height="300", border="5"></img>
 </div>
 
 Dafür starten wir einen Timer mit Intervall in Millisekunden, welchen wir bereits schon festgelegt haben. Dann soll immer der BeepSound abgespielt werden. Für diese 'playBeepSound'-Funktion verwenden wir den MediaPlayer von Android. Dieser Timer würde nun theoretisch endlos weiter laufen. Deshalb gucken wir zum einen, ob der Text des Buttons "Start" ist, und zum anderen, ob die aktuelle Seite die Startseite ist. In diesen Fällen soll der Timer dann stoppen.s
@@ -303,7 +303,7 @@ Zum einen haben wir ein Label mit einem kleinen Info-Text. Dann folgt ein selbst
 <summary>Kompletter Code des Designs</summary>
 
 <div align=center>
-    <img src='images/code(17).png', border="5"></img>
+    <img src='images/code(17).png', height="300", border="5"></img>
 </div>
 
 </details>
@@ -321,13 +321,13 @@ private int seconds = 15;
 Für den Timer erstellen wir noch eine weitere Variable, die falls der Timer nicht läuft oder die Anzeige gleich 00:00:00 anzeigt falsch ist. Und wenn dies nicht der Fall ist, wird von der Sekunden-Variable immer ein Wert abgezogen, und der Wert wird immer dementsprechend angepasst angezeigt. 
 
 <div align=center>
-    <img src='images/code(18).png', border="5"></img>
+    <img src='images/code(18).png', height="300", border="5"></img>
 </div>
 
 Wenn nun der "Start"-Button geklickt wird, wird, sofern der Timer noch nicht läuft, der Timer gestartet und die Variable auf wahr gesetzt. 
 
 <div align=center>
-    <img src='images/code(19).png', border="5"></img>
+    <img src='images/code(19).png', height="300", border="5"></img>
 </div>
 
 Beim Blicken des "Stop"-Button wird die 'TimerRunning'-Variable wieder auf False gesetzt, und die Sekunden-Variable, sowie die Anzeige auf ihren Startwert zurückgesetzt.
@@ -335,7 +335,7 @@ Beim Blicken des "Stop"-Button wird die 'TimerRunning'-Variable wieder auf False
 Wenn der User die Eingabe im Entry-Feld bestätigt, wird ebenfalls eine Funktion abgerufen. Diese speichert zunächst einmal den Inhalt von diesem Feld in einer Variable. Dann wird geguckt, ob der Input entweder leer ist oder ein Bindestrich enthält. In diesem Fall soll nichts ausgrechnet werden, denn dies würde nur zu einem unnötigen Absturz der App führen. Falls keiner dieser beiden Fälle nicht vorhanden ist, wird der Input in eine Zahl verwandelt und dann mit 4 multipliziert, um den Puls für eine Minute zu berechnen. Im Anschluss wird das Ergebnis dann noch in dem dafür vorgesehenen Feld angezeigt.
 
 <div align=center>
-    <img src='images/code(20).png', border="5"></img>
+    <img src='images/code(20).png', height="300", border="5"></img>
 </div>
 
 </details>
