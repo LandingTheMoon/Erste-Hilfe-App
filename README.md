@@ -144,7 +144,7 @@ Zuerst werden wie bei allen Dateien auch hier erstmal alle Librarys importiert, 
 Darauf folgt der eigentliche Code:
 
 <div align=center>
-    <img src='images/code(5).png', height="400", border="5"></img>
+    <img src='images/code(5).png', height="500", border="5"></img>
 </div>
 
 Die Zeile 'InitializeComponent();' sorgt dafür, dass alles was wir vorher in der '.xaml'-Datei geschrieben haben, nun auch erzeugt wird. 
@@ -185,7 +185,7 @@ Im nächsten Schritt erzeugen wir die Liste in welcher später die ganzen Lände
 <details>
 <summary>Kompletter Code für die Liste</summary>
 <div align=center>
-    <img src='images/code(8).png', height="500", border="5"></img>
+    <img src='images/code(8).png', height="750", border="5"></img>
 </div>
 </details>
 
@@ -303,7 +303,7 @@ Zum einen haben wir ein Label mit einem kleinen Info-Text. Dann folgt ein selbst
 <summary>Kompletter Code des Designs</summary>
 
 <div align=center>
-    <img src='images/code(17).png', height="550", border="5"></img>
+    <img src='images/code(17).png', border="5"></img>
 </div>
 
 </details>
