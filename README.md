@@ -341,7 +341,7 @@ Wenn der User die Eingabe im Entry-Feld bestätigt, wird ebenfalls eine Funktion
 
 ## Video von der App <a name="video"></a>
 
-<video controls preload>
+<video>
 
 <source src="images/Erste-Hilfe-App v2.mp4">
 
