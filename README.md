@@ -341,8 +341,7 @@ Wenn der User die Eingabe im Entry-Feld bestätigt, wird ebenfalls eine Funktion
 
 ## Video von der App <a name="video"></a>
 
-<video src="https://www.youtube.com/embed/HQi_gFP4nF8">
-</video>
+https://github.com/LandingTheMoon/Erste-Hilfe-App/assets/79759529/7938ebd5-f787-48ae-81a6-cd7841d1cfcb
 
 ## Reflexion <a name="reflex"></a>
 
