@@ -303,7 +303,7 @@ Zum einen haben wir ein Label mit einem kleinen Info-Text. Dann folgt ein selbst
 <summary>Kompletter Code des Designs</summary>
 
 <div align=center>
-    <img src='images/code(17).png', border="5"></img>
+    <img src='images/code(17).png', height="850",border="5"></img>
 </div>
 
 </details>
