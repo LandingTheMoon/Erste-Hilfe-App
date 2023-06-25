@@ -93,8 +93,17 @@ PhoneDialer.Open("112");
 
 ### Woche vom 08.05. bis 14.05.
 
-Diese Woche haben wir sehr viel geschafft, Louis hat das Problem mit Sound gelöst und hat es auch gleich geschafft den Sound in einem regelmäßigen Tempo abspielen zu lassen. Jedoch ist uns bei einem Langzeittest aufgefallen, dass der Sound irgendwann aufhört. Nach einer kurzen Recherche hat Jan herausgefunden, dass wohl ein Speichermedium der App voll war, sodass wir unseren Code dementsprechend anpassen mussten. Damit haben wir die erste Seite unserer App vollendet.
+Diese Woche haben wir sehr viel geschafft, Louis hat das Problem mit Sound gelöst und hat es auch gleich geschafft den Sound in einem regelmäßigen Tempo abspielen zu lassen. Jedoch ist uns bei einem Langzeittest aufgefallen, dass der Sound irgendwann aufhört. Nach einer kurzen Recherche hat Jan herausgefunden, dass wohl ein Speichermedium der App voll war, sodass wir unseren Code um 3 Zeilen Code (s.u.) erweitern mussten. Damit haben wir die erste Seite unserer App vollendet.
 Jan hat auf unser Notrufseite angefangen mehrere Buttons hinzuzufügen, jedoch haben wir schnell gemerkt, dass wir eine Liste erstellen müssen. Da wir gerne zumindest alle Notrufnummern der europäischen Länder in der App implementiert hätten. Wir haben uns entschieden uns gemeinsam diesem Problem am Fachtag nächste Woche zu widmen. Weitergehend hat Jan eine Startseite erstellt, von welcher man per Knopfklick jeweils zu den anderen Seiten kommt.
+
+<details>
+<summary>Die 3 Zeilen Code als Lösung</summary>
+```
+_mediaPlayer.Completion += delegate {
+    _mediaPlayer.Reset();
+};
+```
+</details>
 
 ### Fachtag am 17.05.23
 

@@ -343,7 +343,7 @@ Wenn der User die Eingabe im Entry-Feld bestätigt, wird ebenfalls eine Funktion
 
 <video controls preload>
 
-<source src="images/test.mp4">
+<source src="images/Erste-Hilfe-App v2.mp4">
 
 </video>
 
@@ -357,11 +357,59 @@ Ein kleinen weiteren Abstrich mussten wir im Verlauf des Projekt auch einstecken
 
 <ol>
     <li>
-        <a href="https://www.python-engineer.com/posts/chatbot-pytorch/">https://www.python-engineer.com/posts/chatbot-pytorch/</a>
+        <a href="https://www.stackoverflow.com/">https://www.stackoverflow.com/</a>
+    </li>
+    <li>
+        <a href="https://learn.microsoft.com/">https://learn.microsoft.com/</a>
+    </li>
+    <li>
+        <a href="https://www.c-sharpcorner.com/article/audio-functionality-in-xamain-forms-android/">https://www.c-sharpcorner.com/article/audio-functionality-in-xamain-forms-android/</a>
+    </li>
+    <li>
+        <a href="https://www.c-sharpcorner.com/article/how-to-create-a-list-view-action-in-xamarin-forms/">https://www.c-sharpcorner.com/article/how-to-create-a-list-view-action-in-xamarin-forms/</a>
+    </li>
+    <li>
+        <a href="https://www.c-sharpcorner.com/article/search-data-from-xamarin-forms-list-view/">https://www.c-sharpcorner.com/article/search-data-from-xamarin-forms-list-view/</a>
+    </li>
+    <li>
+        <a href="https://www.autokiste.de/verkehr_reise/notrufnummern/index.htm">https://www.autokiste.de/verkehr_reise/notrufnummern/index.htm</a>
+    </li>
+    <li>
+        <a href="https://social.msdn.microsoft.com/Forums">https://social.msdn.microsoft.com/Forums</a>
+    </li>
+    <li>
+        <a href="https://o7planning.org/10537/android-device-monitor">https://o7planning.org/10537/android-device-monitor</a>
+    </li>
+    <li>
+        <a href="https://csharp-station.com/how-to-test-for-even-or-odd-numbers-in-c/">https://csharp-station.com/how-to-test-for-even-or-odd-numbers-in-c/</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/watch?v=gwTh5QwbUjA">https://www.youtube.com/watch?v=gwTh5QwbUjA</a>
+    </li>
+    <li>
+        <a href="https://icon.kitchen/i/H4sIAAAAAAAAAy3PzQ7CIAwA4Hep1x2MiQd39QVMtpvxUKBjxEInAxOz7N0F9NZ%2B%2FUm7wRs50wr9Bgbjc5zJE%2FQpZupA2WHGpaSwvrKLmgk6mOz4aeY82grKXoUlFjmcL%2BqodLN%2Fk26lOjVoZBdsNQqJfnhDYxpukGSB%2FtRBdHZOLVKSkvgWMk3V9jLjmALWG4ExBz2XTYW9mMz1jTtgMFGcKfudrPDYv27MCKPjAAAA">https://icon.kitchen/i/H4sIAAAAAAAAAy3PzQ7CIAwA4Hep1x2MiQd39QVMtpvxUKBjxEInAxOz7N0F9NZ%2B%2FUm7wRs50wr9Bgbjc5zJE%2FQpZupA2WHGpaSwvrKLmgk6mOz4aeY82grKXoUlFjmcL%2BqodLN%2Fk26lOjVoZBdsNQqJfnhDYxpukGSB%2FtRBdHZOLVKSkvgWMk3V9jLjmALWG4ExBz2XTYW9mMz1jTtgMFGcKfudrPDYv27MCKPjAAAA</a>
+    </li>
+    <li>
+        <a href="https://imagecolorpicker.com/color-code/d43b37">https://imagecolorpicker.com/color-code/d43b37</a>
+    </li>
+    <li>
+        <a href="https://www.andrewhoefling.com/Blog/Post/xamarin-forms-title-view-a-powerful-navigation-view">https://www.andrewhoefling.com/Blog/Post/xamarin-forms-title-view-a-powerful-navigation-view</a>
+    </li>
+    <li>
+        <a href="https://www.oreilly.com/library/view/xamarin-mobile-development/9781784398576/ch09s02.html">https://www.oreilly.com/library/view/xamarin-mobile-development/9781784398576/ch09s02.html</a>
+    </li>
+    <li>
+        <a href="https://codezwithbuddhima.wordpress.com/2017/05/16/listview-height-issue-in-xamarin-forms-how-to-solve-it/">https://codezwithbuddhima.wordpress.com/2017/05/16/listview-height-issue-in-xamarin-forms-how-to-solve-it/</a>
+    </li>
+    <li>
+        <a>AffinityPhoto (Fotbearbeitung)</a>
+    </li>
+    <li>
+        <a>XRecorder (Bildschirmaufnahme)</a>
     </li>
 </ol>
 
-Alle Links wurden zuletzt erfolgreich am 26.06.2023 um 15.00 Uhr geöffnet.
+Alle Links wurden zuletzt erfolgreich am 25.06.2023 um 21.00 Uhr geöffnet.
 
 ## Eigenständigkeitserklärung <a name="eigen"></a>
 
