@@ -341,7 +341,8 @@ Wenn der User die Eingabe im Entry-Feld bestätigt, wird ebenfalls eine Funktion
 
 ## Video von der App <a name="video"></a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HQi_gFP4nF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<video src="https://www.youtube.com/embed/HQi_gFP4nF8">
+</video>
 
 ## Reflexion <a name="reflex"></a>
 
