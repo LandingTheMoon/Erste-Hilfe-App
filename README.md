@@ -341,11 +341,7 @@ Wenn der User die Eingabe im Entry-Feld bestätigt, wird ebenfalls eine Funktion
 
 ## Video von der App <a name="video"></a>
 
-<video>
-
-<source src="images/Erste-Hilfe-App v2.mp4">
-
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HQi_gFP4nF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Reflexion <a name="reflex"></a>
 
