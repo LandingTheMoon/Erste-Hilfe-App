@@ -111,16 +111,10 @@ Von der Startseite können alle Funktionsseiten aufgerufen werden, die Reihenfol
 Die Seite ist einfach und übersichtlich aufgebaut, da im Notfall so schnell wie möglich zu der Funktion gelangen soll, die man gerade benötigt. Daher besteht sie auch nur aus 3 Buttons.
 
 Zu Beginn haben wir die Leiste am oberen Bildschirmrand designt. Diese ist bereits standardmäßig vorhanden, da wir die Seite als 'NavigationPage' festgelegt haben. 
-```
-<NavigationPage.TitleView>
-    <Label Text="Startseite"
-            FontSize="Large"
-            FontAttributes="Bold"
-            TextColor="#FFFFFF"
-            HorizontalTextAlignment="Start"
-            VerticalTextAlignment="Center"/>
-</NavigationPage.TitleView>
-```
+
+<div align=center>
+    <img src='images/code(1).png', height="300", border="5"></img>
+</div>
 
 Wir erzeugen ein Label innerhalb dieser Leiste. Dem Label wird ein Inhalt, hier ein Text, zugeordnet und anschließend die Größe, die Eigenschaft (hier, dass die Schrift "fett" sein soll) und die Farbe festgelegt. Danach bestimmen wir wo dieser Text stehen soll, also horizontal am Start (ganz links) des Labels und vertikal in der Mitte vom Label.
 
