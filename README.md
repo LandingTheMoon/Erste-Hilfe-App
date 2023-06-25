@@ -144,7 +144,7 @@ Zuerst werden wie bei allen Dateien auch hier erstmal alle Librarys importiert, 
 Darauf folgt der eigentliche Code:
 
 <div align=center>
-    <img src='images/code(5).png', height="300", border="5"></img>
+    <img src='images/code(5).png', height="400", border="5"></img>
 </div>
 
 Die Zeile 'InitializeComponent();' sorgt dafür, dass alles was wir vorher in der '.xaml'-Datei geschrieben haben, nun auch erzeugt wird. 
@@ -185,7 +185,7 @@ Im nächsten Schritt erzeugen wir die Liste in welcher später die ganzen Lände
 <details>
 <summary>Kompletter Code für die Liste</summary>
 <div align=center>
-    <img src='images/code(8).png', height="300", border="5"></img>
+    <img src='images/code(8).png', height="500", border="5"></img>
 </div>
 </details>
 
@@ -198,7 +198,7 @@ Wichtig bei dem Code ist, dass wenn ein Item berührt worden ist (das ganze funk
 Auch bei dieser Seite werden natürlich zuerst einmal die ganzen Librarys importiert und das Grundgerüst für den Code geschaffen.
 
 <div align=center>
-    <img src='images/code(9).png', height="300", border="5"></img>
+    <img src='images/code(9).png', height="350", border="5"></img>
 </div>
 
 Dies ist der erste Teile vom Code, welcher automatisch beim Öffnen der Seite abgerufen wird. Um dies zu verstehen müssen wir jedoch erstmal wieder einen kleinen Exkurs machen.
@@ -247,7 +247,7 @@ Wählt man jedoch auf der Startseite den Reanimationsbutton landet man auf diese
 Auch auf dieser Seite designen wir zunächst wieder die Leiste am oberen Bildschirmrand. Ansonsten ist die Seite sehr simpel gehalten. Die Seite enthält nur zwei Elemente zum einen einen Info-Text, inform eines Buttons, um beim Klicken eine Erklärung zu ermöglichen, und zum anderen einen großen Button, welcher nach dem Klicken auch wieder eine Funktion erzeugt bzw. aufruft.
 
 <div align=center>
-    <img src='images/code(13).png', height="300", border="5"></img>
+    <img src='images/code(13).png', height="400", border="5"></img>
 </div>
 
 </details>
@@ -282,7 +282,7 @@ Es folgt nun die Erklärung für den Code, wenn der große Button auf dieser Sei
 Zunächst einmal wird der Intervall festgelegt in welchem Abstand nachher unser Metronom den Ton abspielen soll. Denn dafür brauchen wir einen Wert in Millisekunden. Dann rechnen wir anschließend auf die Variable i einen Wert dazu, um dann zugucken ob nach der Modulo-Operation mit 2 der Wert von i gleich 0 ist. Wenn dies so ist soll, der Button grün bleiben und weiterhin "Start" sagen. Falls dies jedoch nicht der Fall ist, soll der Button rot werden und sich der Text zu "Stop" ändern. Außerdem soll das genannte Metronom starten.
 
 <div align=center>
-    <img src='images/code(16).png', height="300", border="5"></img>
+    <img src='images/code(16).png', height="325", border="5"></img>
 </div>
 
 Dafür starten wir einen Timer mit Intervall in Millisekunden, welchen wir bereits schon festgelegt haben. Dann soll immer der BeepSound abgespielt werden. Für diese 'playBeepSound'-Funktion verwenden wir den MediaPlayer von Android. Dieser Timer würde nun theoretisch endlos weiter laufen. Deshalb gucken wir zum einen, ob der Text des Buttons "Start" ist, und zum anderen, ob die aktuelle Seite die Startseite ist. In diesen Fällen soll der Timer dann stoppen.s
@@ -303,7 +303,7 @@ Zum einen haben wir ein Label mit einem kleinen Info-Text. Dann folgt ein selbst
 <summary>Kompletter Code des Designs</summary>
 
 <div align=center>
-    <img src='images/code(17).png', height="300", border="5"></img>
+    <img src='images/code(17).png', height="550", border="5"></img>
 </div>
 
 </details>
