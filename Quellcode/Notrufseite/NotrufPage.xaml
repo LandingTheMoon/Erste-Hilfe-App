@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Algemeine Sachen sind in MainPage.xaml commentiert-->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Erste_Hilfe_App.NotrufPage"
@@ -18,17 +19,17 @@
                    TextChanged="LandSearch_TextChanged"
                    TextColor="White"
                    PlaceholderColor="White"
-                   CancelButtonColor="White"/>
+                   CancelButtonColor="White"/>                              <!--Hier wird die Suchleiste erstellt-->
         <ListView x:Name="NotrufList"
                   HasUnevenRows="True"
                   ItemTapped="NotrufList_ItemTapped"
                   VerticalOptions="FillAndExpand"
                   HorizontalOptions="FillAndExpand"
-                  IsVisible="True">
+                  IsVisible="True">                                         <!--Hier wird die Hülle der Liste erstellt-->
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <ViewCell.View>
+                        <ViewCell.View>                                     <!--Hier wird das Aussehen einer Zelle definiert-->
                             <Grid BackgroundColor="#052A2F"
                               RowSpacing="0"
                               ColumnSpacing="10"
@@ -47,17 +48,17 @@
                                        Source="{Binding Flag}"
                                        WidthRequest="60"
                                        HeightRequest="38"
-                                       BackgroundColor="#052A2F"/>
+                                       BackgroundColor="#052A2F"/>          <!--Hier wird das Bild der Flagge im Netz der Zelle plaziert, dabei bezieht sich "Binding Flag" auf die Daten in NotrufPage.xaml.cs-->
                                 <Label Grid.Row="0"
-                                   Grid.Column="1"
-                                   Text="{Binding Land}"
-                                   FontSize="Large"
-                                   WidthRequest="270"
-                                   HeightRequest="38"
-                                   Padding="0"
-                                   HorizontalTextAlignment="Center"
-                                   VerticalTextAlignment="Center"
-                                   BackgroundColor="#5b5a5f"/>
+                                       Grid.Column="1"
+                                       Text="{Binding Land}"
+                                       FontSize="Large"
+                                       WidthRequest="270"
+                                       HeightRequest="38"
+                                       Padding="0"
+                                       HorizontalTextAlignment="Center"
+                                       VerticalTextAlignment="Center"
+                                       BackgroundColor="#5b5a5f"/>          <!--Wie biem Bild bezieht sich "Binding Land" auf die Daten in NotrufPage.xaml.cs-->
                             </Grid>
                         </ViewCell.View>
                     </ViewCell>

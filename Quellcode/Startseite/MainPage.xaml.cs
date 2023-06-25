@@ -13,12 +13,12 @@ namespace Erste_Hilfe_App
     {
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent();                                                          //Diese Zeile erstellt die Seite
         }
 
-        async void BtnTest_Clicked(System.Object sender, System.EventArgs e)
+        async void BtnTest_Clicked(System.Object sender, System.EventArgs e)                //Dies wird aktiviert wenn der entsprechende Knopf gedrückt wird
         {
-            await Navigation.PushAsync(new PulsRechner());
+            await Navigation.PushAsync(new PulsRechner());                                  //Hiermit wird die neue Seite der App aufgerufen
         }
 
         async void BtnCall_Clicked(System.Object sender, System.EventArgs e)

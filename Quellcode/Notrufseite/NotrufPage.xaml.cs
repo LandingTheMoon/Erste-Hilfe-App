@@ -8,6 +8,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 
+//Algemeine Sachen sind in MainPage.xaml.cs commentiert
+
 namespace Erste_Hilfe_App
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
@@ -19,12 +21,12 @@ namespace Erste_Hilfe_App
             InitializeComponent();
 
 
-            tempdata = new List<Class_Template>
+            tempdata = new List<Class_Template>                             //Hier wird eine List erstellt mit dem "Class_Template.cs"
             {
-                new Class_Template
+                new Class_Template                                          //Alle Einträge der List sind nach Class_Template.cs aufgebaut
                 {
-                    Land = "Belgien",
-                    Flag = "Resources/drawable/belgien.png"
+                    Land = "Belgien",                                       //Erst wird das Land definiert
+                    Flag = "Resources/drawable/belgien.png"                 //Dann wird der Dateipfad für die Flagge definiert
                 },
                 new Class_Template
                 {
@@ -203,18 +205,18 @@ namespace Erste_Hilfe_App
                 },
             };
 
-            NotrufList.ItemsSource = tempdata;
+            NotrufList.ItemsSource = tempdata;                                  //Hier wird dann noch mal die erstellte Liste als Quelle für die angezeigte Liste gesetzt
         }
 
-        private void NotrufList_ItemTapped(object sender, ItemTappedEventArgs e)
+        private void NotrufList_ItemTapped(object sender, ItemTappedEventArgs e)            //Diese Aktion wird ausgeführt wenn auf ein Element der Liste gedrückt wird egal ob Landname oder Flagge
         {
-            var Selected = e.Item as Class_Template;
+            var Selected = e.Item as Class_Template;                            //Diese Variable wird so definiert, dass sie in der tempdata Liste das Land lesen kann welches gedrückt wurde 
 
-            switch (Selected.Land)
+            switch (Selected.Land)                                              //Hier wird dann unterschieden was bei den einzelnen Ländern passiert
             {
-                case "Belgien":
-                    PhoneDialer.Open("112");
-                    break;
+                case "Belgien":                                                 //When das Land was gedrückt wurde dem Land im "case" übereinstimmt dann wird die Aktion aus diesem "case" ausgefürht
+                    PhoneDialer.Open("112");                                    //Diese Zeile öffent die Telefonnummereingabeapp mit der angegeben Nummer schon eingegeben
+                    break;                                                      //Diese Zeile bricht dann das vorgehen ab damit das Program weiß das es fertig ist
                 case "Bulgarien":
                     PhoneDialer.Open("112");
                     break;
@@ -321,20 +323,20 @@ namespace Erste_Hilfe_App
                     PhoneDialer.Open("112");
                     break;
             }
-            ((ListView)sender).SelectedItem = null;
+            ((ListView)sender).SelectedItem = null;                                 //Hier wird die gedrückte Zeile aus der List wieder zurück zu nichts gesetzt
         }
 
-        private void LandSearch_TextChanged(object sender, TextChangedEventArgs e)
+        private void LandSearch_TextChanged(object sender, TextChangedEventArgs e)      //Dieser Bereich wird durch die Suchleiste aktiviert und beinhaltet die Suchfunktion
         {
-            string input = e.NewTextValue.ToString().ToLower();
+            string input = e.NewTextValue.ToString().ToLower();                     //Hiermit wird der eingegebene Inhalt aus dem Suchfeld gespeichert und alles wird zu klein Buchstaben verwandelt
 
-            if (string.IsNullOrEmpty(input) )
+            if (string.IsNullOrEmpty(input) )                                       //Hier wird geschaut ob der eingebebene Inhalt leer ist, was dazufürht, dass die ganze Liste angeziegt wird
             {
                 NotrufList.ItemsSource = tempdata;
             }
             else
             {
-                NotrufList.ItemsSource = tempdata.Where(x => x.Land.StartsWith(input[0].ToString().ToUpper() + input.Substring(1)));
+                NotrufList.ItemsSource = tempdata.Where(x => x.Land.StartsWith(input[0].ToString().ToUpper() + input.Substring(1)));            //Diese Ziele sorgt dafür, dass nur die Länder in der Liste angezeigt werden die mit der Sucheingabe übereinstimmen
             }
         }
     }

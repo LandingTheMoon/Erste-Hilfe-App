@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Erste_Hilfe_App.MainPage"
-             BackgroundColor="#052A2F">
+             BackgroundColor="#052A2F">           <!--Erstellt die Seite als die Inhalt fassen kann-->
 
-    <NavigationPage.TitleView>
+    <NavigationPage.TitleView>                      <!--Erstellt ein Textfeld in der Navigationszeile, über dem Inhalt-->
         <Label Text="Startseite"
                FontSize="Large"
                FontAttributes="Bold"
@@ -13,47 +13,46 @@
                VerticalTextAlignment="Center"/>
     </NavigationPage.TitleView>
 
-    <StackLayout Padding="20,30,20,0">
+    <StackLayout Padding="20,30,20,0">              <!--Erstellt ein Layout für den Inhalt mit dem Parameter "Padding", welcher abstand zu den Seitenrändern herstellt-->
         <Grid BackgroundColor="#052A2F"
-              RowSpacing="30">
+              RowSpacing="30">                      <!--Stellt ein unsichtbares Netz, anhand wesen Elemente einfacher plaziert werden können-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>      <!--Definiert wie viele Zeilen das Netz hat (Horizontal), dabei wird die Höhe der Zeile automatisch angepasst an Werten-->
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
+                <ColumnDefinition/>                 <!--Definiert wie viele Spalten das Netz hat (Vertikal)-->
             </Grid.ColumnDefinitions>
-
+                                           
+            <!--Jetzt werden die Knöpfe im Netz erstellt-->
+            
             <Button Grid.Row="2"
                     Grid.Column="0"
-                    Grid.ColumnSpan="2"
                     Text="Puls"
                     FontSize="Large"
                     Padding="50"
                     x:Name="BtnTest"
                     Clicked="BtnTest_Clicked"
-                    HeightRequest="160"/>
+                    HeightRequest="160"/>           <!--Die ersten zwei Zeilen beschreiben wo im Netz der Knopf erstellt wird-->
 
             <Button Grid.Row="1"
                     Grid.Column="0"
-                    Grid.ColumnSpan="2"
                     Text="Reanimation"
                     Padding="50"
                     FontSize="Large"
                     x:Name="BtnMetro"
                     Clicked="BtnMetro_Clicked"
-                    HeightRequest="160"/>
+                    HeightRequest="160"/>           <!--"x:Name" und "Clicked" berufen sich auf die Funktion des Knopfes und den Namen des Knopfes im Code-->
 
             <Button Grid.Row="0"
                     Grid.Column="0"
-                    Grid.ColumnSpan="2"
                     Text="Notruf"
                     Padding="50"
                     FontSize="Large"
                     x:Name="BtnCall"
                     Clicked="BtnCall_Clicked"
-                    HeightRequest="160"/>
+                    HeightRequest="160"/>           <!--"HeigthRequest" bestimmt wie hoch der Knopf sein soll und bezieht sich auf das "Auto" in der Zeilen-Definition-->
 
         </Grid>
     </StackLayout>

@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Algemeine Sachen sind in MainPage.xaml commentiert-->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="Erste_Hilfe_App.MetronomPage"
@@ -19,7 +20,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>                    <!--Das "Auto" bei der Breite der Spalte ist dafür da, um den einzelnen Elementen eine definierte Breite zu geben-->
         </Grid.ColumnDefinitions>
         <Button Grid.Row="1"
                 Grid.Column="0"
@@ -43,7 +44,7 @@
                 x:Name="AlertBtn"
                 Clicked="AlertBtn_Clicked"
                 TextColor="#FFFFFF"
-                Text="HLW nach angegebenen Rhythmus"/>
+                Text="HLW nach angegebenen Rhythmus"/>          <!--"TextTransForm" sorgt dafür, dass der Text so angezeigt wird wie in "Text" angegeben, also das nicht alles groß geschrieben wird z.B.-->
     </Grid>
 
 </ContentPage>

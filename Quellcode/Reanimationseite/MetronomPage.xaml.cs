@@ -6,12 +6,14 @@ using System.Timers;
 using Erste_Hilfe_App;
 using Xamarin.Forms;
 
+//Algemeine Sachen sind in MainPage.xaml.cs commentiert
+
 namespace Erste_Hilfe_App
 {
     public partial class MetronomPage : ContentPage
     {
         private int tempo_bpm = 110;
-        private double interval;
+        private double interval;                                                                //Hier werden ein paar Variabeln erstellt
         private int i = 0;
         public string v;
 
@@ -20,12 +22,12 @@ namespace Erste_Hilfe_App
             InitializeComponent();
         }
 
-        void BtnMetro_Clicked(System.Object sender, System.EventArgs e)
+        void BtnMetro_Clicked(System.Object sender, System.EventArgs e)                         //Das hier ist die Funktion vom Metronom
         {
-            interval = 60000.0 / tempo_bpm;
+            interval = 60000.0 / tempo_bpm;                                                     //Hier wird das Intervall zwischen den Tönen anhand des vorher definierten Tempos bestimmt
             i++;
-            if (i % 2 == 0)
-            {
+            if (i % 2 == 0)                                                                     //Diese When funktion schaut ob der Rest von "i/2" gelich null ist, um zu bestimmen ob i gerade oder ungerade ist
+            {                                                                                   //Die Information über gerade und ungerade benutzten wir um zu schauen ob der Knopf nochmal gedrückt wurde
                 BtnMetro.Text = "Start";
                 BtnMetro.BackgroundColor = Color.Green;
             }
@@ -35,16 +37,16 @@ namespace Erste_Hilfe_App
                 BtnMetro.Text = "STOP";
 
 
-                Device.StartTimer(TimeSpan.FromMilliseconds(interval), () =>
+                Device.StartTimer(TimeSpan.FromMilliseconds(interval), () =>                    //Hier mit wird der Timer anhand des Intervals gestarted
                 {
-                    DependencyService.Get<ISound>().playBeepSound();
+                    DependencyService.Get<ISound>().playBeepSound();                            //Die Zeile spielt den Ton ab über die Zeile in ISound.cs
 
-                    if (BtnMetro.Text == "Start")
+                    if (BtnMetro.Text == "Start")                                               //Hier wird geschaut ob der Knopf nochmal gedrückt würde mit den Folgen vom gerade oder ungerade
                     {
-                        return false;
+                        return false;                                                           //Diese Zeile stopt den Timer
                     }
-                    Page currentPage = Application.Current.MainPage.Navigation.NavigationStack.LastOrDefault();
-                    if (currentPage is MainPage)
+                    Page currentPage = Application.Current.MainPage.Navigation.NavigationStack.LastOrDefault();         //Hier wird eine Variable festgelegt mit der aktuellen Seite, die offen ist
+                    if (currentPage is MainPage)                                                //Hier wird geschaut ob die aktuelle Seite die Hauptseite ist
                     {
                         return false;
                     }
@@ -58,7 +60,7 @@ namespace Erste_Hilfe_App
 
         async void AlertBtn_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Definition", "HLW = Herz-Lungen-Wiederbelebung", "OK");
+            await DisplayAlert("Definition", "HLW = Herz-Lungen-Wiederbelebung", "OK");         //Hier mit wird ein Pop-Up-Fenster aufgerufen beim drücken des Knopfes
         }
     }
 }
