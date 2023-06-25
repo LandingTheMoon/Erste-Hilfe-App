@@ -113,7 +113,7 @@ Genau deshalb ist diese Seite auch sehr simpel gehalten, denn man soll ja im Not
 Zu erst einmal haben wir aber die Leiste am oberen Bildschirmrand designt. Diese Leiste ist bereits standardmäßig vorhanden, da wir diese Seite als 'NavigationPage' festgelegt haben. Dazu aber später mehr.
 
 <div align=center>
-    <img src='images/code(1).png', height="250", border="5", width="100"></img>
+    <img src='images/code(1).png', height="300", border="5"></img>
 </div>
 
 Wir erzeugen zunächst einmal ein Label innerhalb dieser Leiste. Dann geben wir diesem Label ein Inhalt, einen Text, anschließend legen wir für diesen die Größe, die Eigenschaft (also in diesem Fall, dass die Schrift "fett" sein soll) und die Farbe. Danach sagen wir noch wo dieser Text stehen soll, also horizontal am Start (ganz links) des Labels und vertikal in der Mitte vom Label.
