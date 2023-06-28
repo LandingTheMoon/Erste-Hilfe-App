@@ -255,10 +255,6 @@ Wählt man auf der Startseite den Reanimationsbutton landet man auf der entsprec
     <img src='images/app6.jpeg', height="500", margin="25"></img>
 </div>
 
-<div align=center>
-    <img src='images/app6.jpeg', height="500", margin="25"></img>
-</div>
-
 <details>
 <summary>Design ('.xaml'-Datei)</summary>
 
@@ -317,9 +313,6 @@ Druch Klicken des Puls-Buttons auf der Startseite gelangt man zur 'Pulsseite', m
     <img src='images/app9.jpeg', height="500", margin="25"></img>
 </div>
 
-<div align=center>
-    <img src='images/app9.jpeg', height="500", margin="25"></img>
-</div>
 
 <details>
 <summary>Design ('.xaml'-Datei)</summary>
