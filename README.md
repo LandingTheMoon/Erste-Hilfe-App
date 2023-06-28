@@ -103,7 +103,11 @@ Im folgenden Abschnitt erklären wir den Code unserer App. Die App gliedert sich
 
 ### Startseite <a name="mainpage"></a>
 
-Von der Startseite können alle Funktionsseiten aufgerufen werden, die Reihenfolge ist beliebig. Um zwischen den Funktionsseiten zu wechseln muss man immer zuvor wieder auf die Startseite zurückkehren. 
+Von der Startseite können alle Funktionsseiten aufgerufen werden, die Reihenfolge ist beliebig. Um zwischen den Funktionsseiten zu wechseln muss man immer zuvor wieder auf die Startseite zurückkehren.
+
+<div align=center>
+    <img src='images/app1.jpeg', height="300", margin="5"></img>
+</div>
 
 <details>
 <summary>Design ('.xaml'-Datei)</summary>
@@ -167,6 +171,11 @@ Zusätzlich haben wir dann noch die Farbe und den Text von der oben ansässigen 
 ### Notrufseite <a name="notruf"></a>
 
 Drückt man nun den Notruf-Button auf der Startseite der App landet man auf der Notrufseite. Hier sind mehrere Knöpfe innerhalb einer Liste zu sehen, die jeweils den Notruf für das aufgelistete Land auslösen. Bei den Ländern haben wir uns zunächst auf alle europäischen Länder beschränkt.
+
+<div align=center>
+    <img src='images/app2.jpeg', height="300", margin="5"></img>
+    <img src='images/app3.jpeg', height="300", margin="5"></img>
+</div>
 
 <details>
 <summary>Design ('.xaml'-Datei)</summary>
@@ -240,6 +249,15 @@ Der Userinput zu einem String konvertiert, der nur aus Kleinbuchstaben besteht. 
 
 Wählt man auf der Startseite den Reanimationsbutton landet man auf der entsprechenden Seite. Diese ist ein Metronom, das bei der Reanimation bzw. der Herz-Lungen-Wiederbelebung unterstützen soll, indem es den Takt vorgibt.
 
+<div align=center>
+    <img src='images/app4.jpeg', height="300", margin="5"></img>
+    <img src='images/app5.jpeg', height="300", margin="5"></img>
+</div>
+
+<div align=center>
+    <img src='images/app6.jpeg', height="300", margin="5"></img>
+</div>
+
 <details>
 <summary>Design ('.xaml'-Datei)</summary>
 
@@ -291,6 +309,15 @@ Dafür starten wir einen Timer mit Intervall in Millisekunden, das wir bereits f
 ### Pulsseite <a name="puls"></a>
 
 Druch Klicken des Puls-Buttons auf der Startseite gelangt man zur 'Pulsseite', mit welcher man den ungefähren Puls ermittlen kann. Dafür muss der Erst-Helfende den Puls für 15 Sekunden messen, den Wert auf der Seite eintragen und das Programm rechnet dann die Anzahl der Schläge auf eine Minute hoch.
+
+<div align=center>
+    <img src='images/app7.jpeg', height="300", margin="5"></img>
+    <img src='images/app8.jpeg', height="300", margin="5"></img>
+</div>
+
+<div align=center>
+    <img src='images/app9.jpeg', height="300", margin="5"></img>
+</div>
 
 <details>
 <summary>Design ('.xaml'-Datei)</summary>
