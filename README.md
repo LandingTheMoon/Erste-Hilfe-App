@@ -173,8 +173,8 @@ Zusätzlich haben wir dann noch die Farbe und den Text von der oben ansässigen 
 Drückt man nun den Notruf-Button auf der Startseite der App landet man auf der Notrufseite. Hier sind mehrere Knöpfe innerhalb einer Liste zu sehen, die jeweils den Notruf für das aufgelistete Land auslösen. Bei den Ländern haben wir uns zunächst auf alle europäischen Länder beschränkt.
 
 <div align=center>
-    <img src='images/app2.jpeg', height="500", style="margin:10px"></img>
-    <img src='images/app3.jpeg', height="500", style="margin:10px"></img>
+    <img src='images/app2.jpeg', height="500", style="margin:100px"></img>
+    <img src='images/app3.jpeg', height="500", style="margin:100px"></img>
 </div>
 
 <details>
